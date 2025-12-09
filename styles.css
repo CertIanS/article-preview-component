@@ -1,6 +1,12 @@
 body{
     background-color: hsl(210, 46%, 95%);
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 #michelle, button{
     border-radius: 50%;
 }
@@ -18,4 +24,14 @@ button:hover{
     background-color: white;
     font-family: 'Manrope', sans-serif;
     border-radius: 10px;
+}
+#nameAndOrLinks{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#shareLinks{
+    display: none;
+}
+#shareLinks button{
+    background-color: hsl(217, 19%, 35%);
 }

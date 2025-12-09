@@ -1,5 +1,8 @@
-const button = document.querySelector("button");
+const button = document.getElementById("share");
 
 button.addEventListener("click", function(){
-    console.log("Will do stuff here later");
+    document.getElementById("shareLinks").style.display = "block";
+    document.getElementById("name").style.display = "none";
+    document.getElementById("nameAndOrLinks").style.backgroundColor = "hsl(217, 19%, 35%)";
+    document.getElementById("nameAndOrLinks").style.color = "white";
 });

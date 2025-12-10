@@ -42,10 +42,30 @@ button:hover{
 #nameAndOrLinks{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    display: inline-block;
 }
 #shareLinks{
     display: none;
 }
 #shareLinks button{
     background-color: hsl(217, 19%, 35%);
+}
+@media screen and (min-width: 375px) {
+    #drawers{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        width: 330px;
+        height: 330px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 330px;
+        max-width: 800px;
+    }
+    #info{
+        height: 330px;
+        margin-left: 0;
+    }
 }

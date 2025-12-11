@@ -44,13 +44,17 @@ button:hover{
     border-bottom-left-radius: 10px;
     display: inline-block;
 }
+#name{
+    display: flex;
+    align-items: center;
+}
 #shareLinks{
     display: none;
 }
 #shareLinks button{
     background-color: hsl(217, 19%, 35%);
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 600px) {
     #drawers{
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;

@@ -21,7 +21,7 @@ button:hover{
     background-color: white;
     font-family: 'Manrope', sans-serif;
     border-radius: 10px;
-    max-width: 660px;
+    max-width: 440px;
     margin: 10px;
 }
 #michelle{
@@ -38,6 +38,8 @@ button:hover{
 #drawers{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    width: 100%;
+    max-height: 330px;
 }
 #nameAndOrLinks{
     border-bottom-right-radius: 10px;
@@ -54,19 +56,23 @@ button:hover{
 #shareLinks button{
     background-color: hsl(217, 19%, 35%);
 }
-@media screen and (min-width: 600px) {
+#share{
+    float: right;
+    margin: 30px 60px 0 0;
+}
+@media screen and (min-width: 850px) {
     #drawers{
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
-        width: 330px;
+        width: 300px;
         height: 330px;
     }
     .card{
         display: grid;
         grid-template-columns: 1fr 2fr;
         height: 330px;
-        max-width: 800px;
+        max-width: 750px;
     }
     #info{
         height: 330px;

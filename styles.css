@@ -5,8 +5,13 @@ h2, p{
     color: hsl(217, 19%, 35%);
     padding: 0 10px 0;
 }
+strong{
+    color: hsl(217, 19%, 35%);
+}
 button{
     border: none;
+    width: 34px;
+    height: 34px;
 }
 button:hover{
     cursor: pointer;
@@ -59,6 +64,12 @@ button:hover{
 #share{
     float: right;
     margin: 30px 60px 0 0;
+}
+#nameAndDate{
+    color: hsl(212, 23%, 69%);
+}
+#info p{
+    line-height: 1.6;
 }
 @media screen and (min-width: 850px) {
     #drawers{

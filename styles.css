@@ -89,4 +89,25 @@ button:hover{
         height: 330px;
         margin-left: 0;
     }
+    #shareLinks{
+        position: fixed;
+        top: 52%;
+        left: 61%;
+        background-color: hsl(217, 19%, 35%);
+        border-radius: 10px;
+        width: 200px;
+    }
+    #shareLinks::after{
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-top-color: hsl(217, 19%, 35%);
+        border-bottom: 0;
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
 }

@@ -8,12 +8,14 @@ button.addEventListener("click", function(){
         document.getElementById("name").style.display = "none";
         document.getElementById("shareLinks").style.backgroundColor = "hsl(217, 19%, 35%)";
         document.getElementById("shareLinks").style.color = "white";
+        document.getElementById("nameAndOrLinks").style.backgroundColor = "hsl(217, 19%, 35%)";
     }else if(screen.width > 850){
-        //code to show links will come later
+        document.getElementById("shareLinks").style.display = "flex";
     }
     else{
         document.getElementById("shareLinks").style.display = "none";
         document.getElementById("name").style.display = "flex";
+        document.getElementById("nameAndOrLinks").style.backgroundColor = "white";
     }
     
 });

@@ -30,8 +30,8 @@ button:hover{
     margin: 10px;
 }
 #michelle{
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     padding: 0 10px 0;
 }
 #michelle, button{
@@ -50,6 +50,7 @@ button:hover{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     display: inline-block;
+    padding: 0 25px 10px;
 }
 #name{
     display: flex;
@@ -62,6 +63,11 @@ button:hover{
 }
 #shareLinks button{
     background-color: hsl(217, 19%, 35%);
+    margin-top: 10px;
+}
+#shareLinks p{
+    color: hsl(212, 23%, 69%);
+    letter-spacing: 6px;
 }
 #share{
     float: right;
@@ -69,6 +75,13 @@ button:hover{
 }
 #share2{
     display: none;
+    margin-left: 100px;
+}
+#share2 img{
+    width: 15px;
+    height: 13px;
+    padding-top: 8px;
+    padding-left: 4px;
 }
 #nameAndDate{
     color: hsl(212, 23%, 69%);
@@ -76,31 +89,35 @@ button:hover{
 #info p{
     line-height: 1.6;
 }
+#info h2, p{
+    padding: 0 25px 0;
+}
 @media screen and (min-width: 850px) {
     #drawers{
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
-        width: 300px;
+        width: 330px;
         height: 330px;
     }
     .card{
         display: grid;
         grid-template-columns: 1fr 2fr;
         height: 330px;
-        max-width: 750px;
+        max-width: 845px;
     }
     #info{
         height: 330px;
         margin-left: 0;
+        padding: 0 24px 0;
     }
     #shareLinks{
         position: fixed;
         top: 52%;
-        left: 61%;
+        left: 60.3%;
         background-color: hsl(217, 19%, 35%);
         border-radius: 10px;
-        width: 200px;
+        width: 250px;
     }
     #shareLinks::after{
         content: " ";

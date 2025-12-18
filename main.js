@@ -2,16 +2,15 @@ const button = document.getElementById("share");
 const button2 = document.getElementById("share2");
 
 button.addEventListener("click", function(){
-    document.getElementById("share").style.backgroundColor = "hsl(217, 19%, 35%)";
-    document.getElementById("share").style.color = "white";
     if(document.getElementById("name").style.display !== "none" && screen.width <= 850){
         document.getElementById("shareLinks").style.display = "flex";
         document.getElementById("name").style.display = "none";
         document.getElementById("shareLinks").style.backgroundColor = "hsl(217, 19%, 35%)";
         document.getElementById("shareLinks").style.color = "white";
         document.getElementById("nameAndOrLinks").style.display = "none";
-        button2.style.display = "inline";
+        button2.style.display = "flex";
         button.style.display = "none";
+        button2.style.backgroundColor = "hsl(212, 23%, 69%)";
     }else if(screen.width > 850){
         document.getElementById("shareLinks").style.display = "flex";
     }
@@ -22,7 +21,6 @@ button.addEventListener("click", function(){
         document.getElementById("nameAndOrLinks").style.display = "inline-block";
         button.style.backgroundColor = "grey";
     }
-    
 });
 
 button2.addEventListener("click", function(){

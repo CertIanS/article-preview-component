@@ -59,7 +59,7 @@ button:hover{
     display: none;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding-top: 10px;
+    padding-top: 9px;
 }
 #shareLinks button{
     background-color: hsl(217, 19%, 35%);
@@ -93,18 +93,18 @@ button:hover{
     padding: 0 25px 0;
 }
 @media screen and (min-width: 850px) {
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 330px;
+        max-width: 845px;
+    }
     #drawers{
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
         width: 330px;
         height: 330px;
-    }
-    .card{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        height: 330px;
-        max-width: 845px;
     }
     #info{
         height: 330px;
@@ -113,11 +113,13 @@ button:hover{
     }
     #shareLinks{
         position: fixed;
-        top: 52%;
-        left: 60.3%;
+        top: 52.5%;
+        left: 59.7%;
         background-color: hsl(217, 19%, 35%);
         border-radius: 10px;
-        width: 250px;
+        width: 275px;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
     #shareLinks::after{
         content: " ";

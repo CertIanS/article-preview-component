@@ -7,6 +7,7 @@ button.addEventListener("click", function(){
         document.getElementById("name").style.display = "none";
         document.getElementById("shareLinks").style.backgroundColor = "hsl(217, 19%, 35%)";
         document.getElementById("shareLinks").style.color = "white";
+        document.getElementById("shareLinks").style.height = "70px";
         document.getElementById("nameAndOrLinks").style.display = "none";
         button2.style.display = "flex";
         button.style.display = "none";

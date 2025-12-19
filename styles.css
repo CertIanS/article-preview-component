@@ -32,7 +32,6 @@ button:hover{
 #michelle{
     width: 60px;
     height: 60px;
-    padding: 0 10px 0;
 }
 #michelle, button{
     border-radius: 50%;
@@ -60,6 +59,7 @@ button:hover{
     display: none;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    padding-top: 10px;
 }
 #shareLinks button{
     background-color: hsl(217, 19%, 35%);
